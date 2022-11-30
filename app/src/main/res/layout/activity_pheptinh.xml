@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_pheptinh_scene"
+    tools:context=".pheptinh">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập số thứ nhất"
+        android:textColor="#EF1212"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginBottom="20sp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập số thứ hai"
+        android:textColor="#F60707"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginBottom="20sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả"
+        android:textStyle="bold"
+        android:textColor="#29F106"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/ketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginBottom="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/tinhtong"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="Tính tổng"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFCB0D"
+            android:background="#ffffff"
+            android:text="Xóa tất cả" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lịch sử"
+        android:textStyle="bold"
+        android:textColor="#0066E3"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/lichsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a"
+        android:inputType="textMultiLine"
+        android:textStyle="bold"
+        android:textColor="#FF02D5"
+        android:textSize="20sp" />
+</LinearLayout>
